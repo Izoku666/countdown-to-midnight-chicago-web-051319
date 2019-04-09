@@ -10,10 +10,5 @@ def countdown(x)
 end
 
 def countdown_with_sleep(x)
-  y = x - 
-  while(x >= y)
-    x -= 1
-    break if x == y
-  end
-  return countdown(y)
+sleep()
 end
