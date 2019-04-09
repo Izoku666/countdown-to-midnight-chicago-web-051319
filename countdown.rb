@@ -2,15 +2,8 @@
 
 def countdown(int)
   while(int > 0) do
-  str = "#{int} SECOND"
-  
-  if(int > 1)
-    str += "S"
-  end
-  
-  str += "!"
+  str = "#{int} SECOND(S)"
   puts str
-  
   int -= 1
   if int == 0
     break
