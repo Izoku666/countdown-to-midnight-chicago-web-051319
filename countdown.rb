@@ -2,7 +2,7 @@
 
 def countdown(int)
   while(int > 0) do
-  str = "#{int} SECOND(S)"
+  str = "#{int} SECOND(S)!"
   puts str
   int -= 1
   if int == 0
