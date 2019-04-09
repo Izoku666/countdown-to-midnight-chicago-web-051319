@@ -13,7 +13,7 @@ def countdown_with_sleep(x)
   y = x - 5
   while x > 0
     if(x >= y)
-      continue
+      next
     elsif(x < y)
       puts "#{x} SECOND(S)!"
     end
