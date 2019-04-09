@@ -10,6 +10,7 @@ def countdown(int)
   end
   
   str += "!"
+  puts str
   
   if int == 0
     break
