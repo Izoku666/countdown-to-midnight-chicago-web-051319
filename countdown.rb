@@ -7,8 +7,7 @@ def countdown(int)
   puts str
   
   int -= 1
-  if int == 0
-    break
+  break if int == 0
     end
     
   end
